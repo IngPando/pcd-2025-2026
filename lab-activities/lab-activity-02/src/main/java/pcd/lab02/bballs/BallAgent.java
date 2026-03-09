@@ -27,7 +27,7 @@ public class BallAgent extends BasicAgent {
             lastUpdate = System.currentTimeMillis();
 	        while (!hasBeenStopped()){
 	            updatePos();
-	            Thread.sleep(DELAY_MS);	
+	            //Thread.sleep(DELAY_MS);	
 	        }
         } catch (Exception ex){
             ex.printStackTrace();
